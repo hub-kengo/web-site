@@ -1,0 +1,177 @@
+body{
+  text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(255, 255, 255);
+}
+img{
+  vertical-align:bottom;
+}
+.contents{
+  width:80%;
+}
+.top-image{
+  width:100%;
+}
+.message-wrapper{
+  width:70%;
+  margin:0 auto;
+  text-align: center;
+}
+.message-wrapper h1{
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size:22px;
+  font-weight: normal;
+  padding:80px 0 15px 0;
+  border-bottom:3px solid #000;
+  display:inline-block;
+  margin-bottom:50px;
+}
+.message-wrapper p{
+  width:80%;
+  margin:0 auto;
+  text-align:left;
+  padding-bottom:85px;
+}
+.photo-wrapper img{
+width:33.3333333333%;
+}
+span .big-photo{ 
+  width:100%;
+}
+.brand-wrapper{
+  width:80%;
+  margin:0 auto;
+  text-align: center;
+}
+.brand-wrapper h2{
+  font-size:22px;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  padding:80px 0 15px 0;
+  border-bottom:solid 3px #000;
+  display:inline-block;
+  margin-bottom:40px;
+}
+.brand-contents{
+  display:flex;
+  border-bottom:solid 1px #000;
+  padding-bottom:40px;
+}
+.contents-item{
+  width:25%;
+  padding:0 25px;
+  text-align: left;
+}
+.contents-item img{
+  width:100%;
+}
+.project-wrapper{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+  padding-bottom:120px;
+  border-bottom:solid 1px #000;
+}
+
+.project-wrapper h2{
+  font-size:22px;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  padding:80px 0 15px 0;
+  border-bottom:solid 3px #000;
+  display:inline-block;
+  margin-bottom:40px;
+}
+.project-item{
+  padding-bottom:70px;
+}
+.project-item img{
+  float:left;
+  height:225px;
+  width:370px;
+  padding-right:20px;
+}
+.project-item p{
+  text-align: left;
+}
+.company-wrapper{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+}
+.company-wrapper h2{
+  font-size:22px;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  padding:80px 0 15px 0;
+  border-bottom:solid 3px #000;
+  display:inline-block;
+  margin-bottom:80px;
+}
+.company-contents{
+  display:flex;
+  padding-bottom:200px;
+}
+.company-ad{
+  text-align: left;
+  padding-right:12%;
+}
+.ggmap{
+  position: relative;
+  width:60%;
+}
+iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+footer{
+  font-size:12px;
+  margin:80px;
+}
+footer a{
+  color:blue;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+.sidebar{
+  width:20%;
+  position:fixed;
+  right:0;
+  height:100%;
+}
+.side-logo{
+  width:87px;
+  height:25px;
+  padding:25px 0 40px 0;
+}
+.side-contents{
+  padding-left:16%;
+}
+.side-contents li{
+  list-style: none;
+  padding-bottom:20px;
+}
+.side-contents li:last-child{
+  padding-bottom:70px;
+}
+.side-contents li a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size:14px;
+}
+.side-contents li a:hover{
+  text-decoration: underline;
+}
+.fa-brands{
+  color:#000;
+  padding-right:10px;
+  font-size:25px;
+}
+.fa-brands:hover{
+  opacity: 0.5;
+}
